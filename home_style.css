@@ -1,0 +1,159 @@
+/* Header */
+.header{
+    display: grid;
+    background-image:url("LawnImg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px 50px;
+  }
+
+
+/* Heading font */
+.header h1{
+    font-family: 'impact', sans-serif;
+    font-weight: 10;
+    color: black;
+    text-align: center;
+    text-shadow: 0 0 2px white;
+  }
+  
+/* Main section */
+body {
+    display: grid;
+    background: mintcream;
+    /* Azule, GhostWhite, MintCream, Snow */
+  }
+  
+
+/* Tag section */
+.tag{
+    display: inline-block;
+    margin: auto;
+    margin-bottom: 20px;
+    border-bottom: solid;
+  }  
+
+/* Service cards */
+.card-section{
+    align-items: flex;
+    display: inline-flex;
+    justify-content: center;
+    padding: 15px 24px;
+    margin-top: 15px;
+}
+
+.card-grid{
+    display: grid;
+    grid-column-gap: 15px;
+    grid-template-columns: repeat(2, 2fr);
+    width: 100%;
+}
+
+.card{
+    list-style: none;
+    position: relative;
+}
+
+.card:before{
+    content:'';
+    display: block;
+    padding-bottom: 150%;
+    width: 100%;
+}
+
+/*Card background*/
+.card-background{
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+    bottom: 0;
+    filter: brightness(.75) saturate(1.5) contrast(.75);
+    left:0;
+    position: absolute;
+    right:0;
+    top:0;
+    transform: scale(1) translateZ(0);
+    transition: filter 200ms linear, transform 100ms linear;
+}
+
+/*Background of card when hoevered over*/
+.card:hover .card-background{
+    transform: scale(1.05) translateZ(0);
+}
+
+/*Background of cards not being hovered over*/
+.card-grid:hover > .card:not(:hover) .card-background{
+    filter:brightness(.8) saturate(.5) contrast(1.5) blur(20px);
+}
+
+/*Heading of card*/
+.card-header{
+    color:white;
+    text-align: center;
+}
+
+/*Wording of card*/
+.card-content{
+    left:0;
+    padding: 24px;
+    position: absolute;
+    top:0;
+}
+
+/* Information section */
+.info-grid{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Location Information */
+.location-info{
+    border: black solid;
+    text-align: center;
+    margin: 10px;
+}
+
+/* Contact information */
+.contact-info{
+    text-align: center; 
+    border: black solid;
+    margin: 10px;
+}
+
+.contact-info a{
+    color:black;
+}
+
+.phone{
+    display: flex;
+    align-items: center;
+}
+  
+/* Icons */
+.material-icons{
+    margin-right: 10px;
+    margin-left: 20px;
+  }
+  
+
+/* Footer */
+.footer {
+    background: LightGrey;
+    color: Black;
+    font-size: 12px;
+    margin-top: 30px;
+  }
+  
+.footer-inner {
+    max-width: 1000px;
+    margin: 10 auto;
+    padding: 0 10px 0 20px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+.footer ul {
+    display: flex;
+    margin: 5px;
+  }

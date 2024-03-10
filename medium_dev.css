@@ -1,0 +1,44 @@
+/*medium devices*/
+@media screen and (min-width: 480px) and (max-width: 801px){
+    .header h1{
+        font-size: 80px;
+    }
+
+    .tag{
+        font-size: 20px;
+      }  
+
+    .card-grid{
+        grid-template-columns: repeat(2,2fr);
+    }
+
+    .card{
+        margin: 10px;
+    }
+
+    .card-header{
+        font-size: 35px;
+    }
+
+    .card-content{
+        font-size: 25px;
+    }
+
+    .location-info{
+        font-size: 25px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+    }
+
+    .contact-info{
+        font-size: 25px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+    }
+    
+    .contact-info a{
+        font-size: 22px;
+    }
+}
