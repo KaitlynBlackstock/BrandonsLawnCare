@@ -22,28 +22,31 @@
     }
 
     .card-header{
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .card-content{
         font-size: 18px;
     }
 
-    .location-info{
+    .info-title{
+        font-size: 25px;
+    }
+
+    .info{
         font-size: 20px;
+        margin: 10px;
     }
 
     .contact-info{
-        font-size: 20px;
         padding-left: 10px;
         padding-right: 10px;
         padding-bottom: 10px;
     }
     
     .contact-info a{
-        font-size: 17px;
-        padding-left: 20px;
-        padding-right: 20px;
+        font-size: 20px;
+        padding-right: 25px;
         padding-bottom: 10px;
     }
 

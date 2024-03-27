@@ -46,7 +46,6 @@ body {
 .card-grid{
     display: grid;
     grid-column-gap: 15px;
-    grid-template-columns: repeat(2, 2fr);
     width: 100%;
 }
 
@@ -58,7 +57,7 @@ body {
 .card:before{
     content:'';
     display: block;
-    padding-bottom: 150%;
+    padding-bottom: 100%;
     width: 100%;
 }
 
@@ -90,7 +89,7 @@ body {
 /*Heading of card*/
 .card-header{
     color:white;
-    text-align: center;
+    margin-top: 40px;
 }
 
 /*Wording of card*/
@@ -134,6 +133,7 @@ body {
 .material-icons{
     margin-right: 10px;
     margin-left: 20px;
+    vertical-align: baseline;
   }
   
 

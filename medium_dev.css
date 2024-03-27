@@ -16,29 +16,38 @@
         margin: 10px;
     }
 
-    .card-header{
-        font-size: 35px;
+    .card-content{
+        padding: 45px;
+        width: 115px;
+        height: 115px;
     }
 
-    .card-content{
-        font-size: 25px;
+    .card-header{
+        font-size: 30px;
     }
 
     .location-info{
-        font-size: 25px;
         padding-left: 20px;
         padding-right: 20px;
         padding-bottom: 10px;
     }
 
-    .contact-info{
+    .info-title{
+        font-size: 30px;
+    }
+
+    .info{
         font-size: 25px;
+    }
+
+    .contact-info{
         padding-left: 20px;
         padding-right: 20px;
         padding-bottom: 10px;
     }
     
     .contact-info a{
-        font-size: 22px;
+        font-size: 25px;
+        margin-right: 40px;
     }
 }

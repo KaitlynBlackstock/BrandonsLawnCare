@@ -9,15 +9,20 @@
       }  
 
     .card-grid{
-        grid-template-columns: repeat(4,1fr);
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .card{
+        margin: 10px;
     }
 
     .card-header{
         font-size: 45px;
+        text-align: center;
     }
     
     .card-content{
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .location-info{
@@ -26,16 +31,23 @@
         padding-right: 40px;
         padding-bottom: 20px;
     }
+    
+    .info-title{
+        font-size: 45px;
+    }
+
+    .info{
+        font-size: 40px;
+    }
 
     .contact-info{
-        font-size: 40px;
         padding-left: 40px;
         padding-right: 40px;
         padding-bottom: 20px;
     }
     
     .contact-info a{
-        font-size: 35px;
+        font-size: 40px;
     }
 
     .phone{
