@@ -1,37 +1,50 @@
 /*medium devices*/
-@media screen and (min-width: 480px) and (max-width: 801px){
+@media screen and (min-width: 481px) and (max-width: 768px){
+    /* Header */
     .header h1{
         font-size: 80px;
     }
 
+    /* Tag section */
     .tag{
         font-size: 20px;
       }  
 
-    .card-grid{
-        grid-template-columns: repeat(2,2fr);
-    }
-
-    .card{
-        margin: 10px;
-    }
-
-    .card-content{
-        padding: 45px;
-        width: 115px;
-        height: 115px;
-    }
-
+    /* Service card header */
     .card-header{
         font-size: 30px;
     }
 
-    .location-info{
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-bottom: 10px;
+    /* Service cards */
+    .cards-list{
+        grid-template-columns: repeat(2,2fr);
     }
 
+    .card{
+        width: 250px;
+        height: 250px;
+    }
+
+    .card .card-image {
+        width: inherit;
+        height: inherit;
+      }
+      
+    .card .card-image img {
+        width: inherit;
+        height: inherit;
+      }
+
+    .card-title {
+        margin-top: -73px;
+      }
+    
+    .card-title p {
+        font-size: 23px;
+        padding-top: 10px;
+    }
+
+    /* Information section */
     .info-title{
         font-size: 30px;
     }
@@ -40,6 +53,14 @@
         font-size: 25px;
     }
 
+    /* Location Information */
+    .location-info{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+    }
+
+    /* Contact information */
     .contact-info{
         padding-left: 20px;
         padding-right: 20px;

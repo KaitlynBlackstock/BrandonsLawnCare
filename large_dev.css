@@ -1,37 +1,59 @@
 /*large devices*/
-@media screen and (min-width: 801px){
+@media screen and (min-width: 769px){
+    /* Heading font */
     .header h1{
         font-size: 100px;
     }
 
+    /* Tag section */
     .tag{
         font-size: 23px;
       }  
 
-    .card-grid{
-        grid-template-columns: repeat(3,1fr);
-    }
-
-    .card{
-        margin: 10px;
-    }
-
+    /* Service card header */
     .card-header{
         font-size: 45px;
         text-align: center;
     }
     
-    .card-content{
-        font-size: 20px;
+    .card-header h3 {
+        font-size: 40px;
+        border-radius: 15px;
+        margin: 10px;
+        padding: 10px;
+        width: 400px;
     }
 
-    .location-info{
-        font-size: 40px;
-        padding-left: 40px;
-        padding-right: 40px;
-        padding-bottom: 20px;
+    /* Service cards */
+    .cards-list{
+        grid-template-columns: repeat(3,4fr);
     }
+
+    .card{
+        width: 300px;
+        height: 300px;
+    }
+
+    .card .card-image {
+        width: inherit;
+        height: inherit;
+      }
+
+    .card .card-image img {
+        width: inherit;
+        height: inherit;
+      }
+
+    .card-title {
+        margin-top: -73px;
+      }
     
+    .card-title p {
+        font-size: 23px;
+        padding-top: 10px;
+    }
+
+    /* Information section */
     .info-title{
         font-size: 45px;
     }
@@ -40,6 +62,15 @@
         font-size: 40px;
     }
 
+    /* Location Information */
+    .location-info{
+        font-size: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 20px;
+    }
+    
+    /* Contact information */
     .contact-info{
         padding-left: 40px;
         padding-right: 40px;
